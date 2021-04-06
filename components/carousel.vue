@@ -68,6 +68,10 @@
 #wrap{
     
     width: 50%;
-     margin: auto;
+     margin-right: 20px;
+     margin-top: 20px;
+     float: right;
+     padding: 5px;
+     
 }
 </style>

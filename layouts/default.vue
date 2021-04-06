@@ -1,37 +1,27 @@
 <template>
   <div>
-   <navBar/>
-   <carousel /> 
-  <main>
-    <div class="container">
+    <navBar />
 
-      
-
-      <Nuxt />
-    
-    </div>
+    <main>
+      <div class="container">
+        <Nuxt />
+      </div>
     </main>
-    
   </div>
 </template>
 
 <script>
-import navBar from '@/components/navBar'
-import Carousel from '@/components/carousel'
-
+import navBar from "@/components/navBar";
 
 export default {
   components: {
     navBar,
-    Carousel
- 
-   
-  }
-}
+  },
+};
 </script>
 
 <style>
-.container {
+/* .container {
   max-width: 700px;
-}
+} */
 </style>
